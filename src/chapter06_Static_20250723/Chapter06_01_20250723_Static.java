@@ -9,10 +9,10 @@ public class Chapter06_01_20250723_Static {
 	// 필요하면 꺼내가서 써. 그럼 메모리를 1개 밖에 안 쓰잖아.
 	// 혹시 다른 놈이 PI값을 변경 할 수도 있으니까 static final로 선언하자.
 	
+	// static 선언 했다 > 이걸 공유하겠다.
 	
 	int width;
 	int height;
 	String color;
-	
 	
 }
