@@ -1,4 +1,4 @@
-package chapter06_20250722;
+package chapter06_Method_20250723;
 
 public class Chapter06_02_20250722_Calculate {
 	
