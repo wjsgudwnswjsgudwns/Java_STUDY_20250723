@@ -4,22 +4,22 @@ public class MemberService {
 
 	// 필드
 	String id; // 아이디
-	int password; // 패스워드
+	String password; // 패스워드
 	
 	//기본생성자
 	public MemberService() {
 	
 	}
 	
-	public MemberService(String id, int password) {
+	public MemberService(String id, String password) {
 		this.id = id;
 		this.password = password;
 	}
 	
 	// 매소드
 	
-	public boolean login(String id, int password) {
-		if (id.equals("hong") && password==12345) {
+	public boolean login(String id, String password) {
+		if (id.equals("hong") && password.equals("12345")) {
 			return true;
 		} else {
 			return false;
