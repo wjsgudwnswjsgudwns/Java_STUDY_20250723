@@ -7,7 +7,7 @@ public class Ex_04_20250723 {
 		
 		BMI bmi = new BMI();
 		
-		double bmical = bmi.bmiCalulator(75.0, 175.0);
+		double bmical = bmi.bmiCalulator(75.0, 1.75);
 		System.out.println("당신의 BMI는 " + bmical + "입니다.");
 		
 	}
